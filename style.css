@@ -1,5 +1,5 @@
 body {
-    background-image: url(bg-header.gif);
+    background:#ededed url(bg-header.gif) repeat-x top center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
@@ -61,4 +61,31 @@ li a {
     line-height: 1.5em;
     display: inline-block;
     height: 30px;
+} /*after completing page I shall add some features in ul and li element*/
+
+div.article {
+    background-color: white;
+    width: 936px;
+    border: 3px solid #5fb3bd;
+    border-radius: 4px;
+    margin: 50px auto 28px;
+    overflow: hidden;
+
+}
+.article img {
+    display: block;
+    float: left;
+    margin: 0 50px 0 0;
+    padding: 0;
+}
+h1[class="heading"] {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'ChangaOne';
+    line-height: 50px;
+    color: #1b2130;
+    padding: 80px 10px 0 0px;
+
+    
+    
 }
