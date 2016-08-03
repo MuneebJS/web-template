@@ -21,7 +21,7 @@ div.logo {
       
 }
 .logo a {
-    background-image: url(bg-logo.png); 
+    background-image: url(images/bg-logo.png); 
     color: white;
     line-height: 130px;
     height: 130px;  
@@ -35,22 +35,22 @@ div.logo {
     margin: 0; 
     display: block;
 }
-div ul {
+div [id="nav"] {
     margin: 114px 0 0 auto;
     padding: 0;
 }
-li {
+#nav li {
     display: inline;
     list-style: none;
     text-transform: uppercase;  
     margin: 15px;
     border-radius: 5px;
-    background-color: #914e99;
+    background-color: #603251;
     padding: 5px;
     width: 250px;
     
 }
-li a {
+#nav li a {
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
@@ -61,14 +61,14 @@ li a {
     line-height: 1.5em;
     display: inline-block;
     height: 30px;
-} /*after completing page I shall add some features in ul and li element*/
+} 
 
 div.article {
     background-color: white;
-    width: 936px;
+    width: 900px;
     border: 3px solid #5fb3bd;
     border-radius: 4px;
-    margin: 50px auto 28px;
+    margin: 50px auto 40px auto;
     overflow: hidden;
 
 }
@@ -84,8 +84,76 @@ h1[class="heading"] {
     font-family: 'ChangaOne';
     line-height: 50px;
     color: #1b2130;
-    padding: 80px 10px 0 0px;
-
-    
-    
+    padding: 80px 10px 0 0px;   
 }
+/*Header has been completed*/
+body#lists-for-body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#lists-for-body li {
+    list-style: none;
+    float: left;
+    width: 220px;
+    font-size: 12px;
+    line-height: 2em;
+    margin: -5px;
+    padding: 10px;
+}
+#lists-for-body li a img{
+    border: 5px solid lightgray;
+    border-radius: 4px;   
+}
+div.featured {
+    width: 500px;
+    clear: both;
+    border: 5px solid lightgray;
+    margin: 40px;
+    margin: auto;    
+}
+.featured>h2 {
+    color: white;
+    background-color: #72385f;
+    width: 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 2;
+    position: relative;
+    top: -35px;
+    left: 10px;    
+}
+.featured img {
+    margin: 10px;
+    position: relative;
+    top: -45px;
+}
+.featured h3 {
+    position: relative;
+    top: -170px;
+    left: 130px;
+    color: #354057;
+    font-size: 20px;
+    font-weight: normal;
+}
+.paragraph {
+    font-size: 12px;
+    position: relative;
+    top: -100px;
+    margin: 10px;
+    line-height: 2em;    
+}
+#footer {
+    width: 100%;
+    height: 160px;
+    background-color: #278280;
+    text-align: center;
+    color: white;
+}
+span {
+    position: relative;
+    top: 70px;
+    font-size: 12x;
+}
+
